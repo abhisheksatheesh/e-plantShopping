@@ -37,16 +37,14 @@
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
+  margin-top: 100px;              /* Adjust vertical placement */
+  margin-left: 50px;              /* Push from the left edge */
+  width: 400px;                   /* Or adjust as needed */
+  height: auto;                   /* Let height grow naturally */
   z-index: 1;
-  text-align: center;
-  /* background-color: red; */
-  width: 400px;
-  height: 400px;
+  text-align: left;               /* Optional: align text to left */
   display: flex;
-  align-items: center;
+  align-items: flex-start;        /* Align items to the left */
   flex-direction: column;
   justify-content: center;
   gap: 10px;
